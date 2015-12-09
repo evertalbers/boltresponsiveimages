@@ -1,7 +1,9 @@
-# bolt-repsponsive-images  
+# bolt-responsive-images  
 
 
-Responsive Image Extension for Bolt CMS. Using picturefill and img srcset  
+Responsive Image Extension for Bolt CMS. Using picturefill and img srcset. 
+
+Using this plugin has advantages over putting responsive image code in your templates manually: the syntax is much shorter, and it enables yout to maintain the breakpoint and cropping settings in one location.
 
 # This is currently in beta :-)  
 
@@ -38,6 +40,7 @@ Here is how the markup will look:
     srcset="/your-site/thumbs/320x0r/filename-here.jpg 320w,
     /your-site/thumbs/480x0r/filename-here.jpg 480w,
     /your-site/thumbs/768x0r/filename-here.jpg 768w"
+    src="/your-site/thumbs/1200x0r/filename-here.jpg"
     alt="filename is used for alt text">  
 ```  
 
